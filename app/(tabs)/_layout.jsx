@@ -12,7 +12,7 @@ const TabLayout = () => (
     <Tabs.Screen
       name="languages"
       options={{
-        title: 'Языки программирования',
+        title: 'Мои языки программирования',
         tabBarIcon: ({ color }) => <FontAwesome size={28} name="code" color={color} />,
       }} />
   </Tabs>
